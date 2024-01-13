@@ -1,7 +1,5 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 import Hero2 from '../components/Hero2';
-import Footer from '../components/Footer';
 
 const Construction = () => {
   return (

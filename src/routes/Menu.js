@@ -1,6 +1,4 @@
 import React from 'react'
-import Navbar from "../components/Navbar.js";
-import Footer from "../components/Footer.js";
 import Hero2 from "../components/Hero2.js";
 import Menu from '../components/Menu.js';
 
