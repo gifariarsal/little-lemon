@@ -6,10 +6,13 @@ import Menu from "./routes/Menu";
 import Reservation from "./routes/Reservation";
 import Construction from "./routes/Construction";
 import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
+    <Navbar />
       <Routes>
         <Route path="/" element={ <Home /> } />
         <Route path="/menu2" element={ <Menu /> } />
@@ -17,6 +20,7 @@ function App() {
         <Route path="/reservation" element={ <Reservation /> } />
         <Route path="/construction" element={ <Construction /> } />
       </Routes>
+      <Footer />
     </>
   );
 }

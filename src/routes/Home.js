@@ -7,10 +7,8 @@ import Menu from "../components/Menu.js";
 const Home = () => {
   return (
     <div>
-      <Navbar />
       <Hero />
       <Menu />
-      <Footer />
     </div>
   )
 }

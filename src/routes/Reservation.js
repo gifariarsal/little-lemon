@@ -7,10 +7,8 @@ import Form from "../components/Form.js";
 const Reservation = () => {
   return (
     <div>
-      <Navbar />
       <Hero2 heading="Reservation" text="Let us know if you need to reserve a table" />
       <Form />
-      <Footer />
     </div>
   )
 }

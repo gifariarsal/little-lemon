@@ -6,9 +6,7 @@ import Footer from '../components/Footer';
 const Construction = () => {
   return (
     <div>
-        <Navbar />
         <Hero2 heading="Oops!" text="This page is under construction" />
-        <Footer />
     </div>
   )
 }
