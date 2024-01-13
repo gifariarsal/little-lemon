@@ -1,4 +1,4 @@
-import "./FooterStyle.css";
+import "../styles/FooterStyle.css";
 import React from 'react'
 import {
     FaHome,

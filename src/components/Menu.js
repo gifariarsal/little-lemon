@@ -1,4 +1,4 @@
-import "./MenuCardStyle.css";
+import "../styles/MenuCardStyle.css";
 import React from 'react';
 import MenuCard from "./MenuCard";
 import MenuCardData from "./MenuCardData";

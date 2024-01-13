@@ -1,4 +1,4 @@
-import "./AboutContentStyle.css";
+import "../styles/AboutContentStyle.css";
 import React from 'react'
 import { Link } from "react-router-dom";
 import Chef1 from "../assets/Chef1.jpg";

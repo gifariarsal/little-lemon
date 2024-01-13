@@ -1,4 +1,4 @@
-import "./HeroStyle.css";
+import "../styles/HeroStyle.css";
 
 import React from 'react'
 import HeroImg from "../assets/hero-bg.jpg";
@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <div className="hero">
         <div className="mask">
-            <img className="intro-img" src={HeroImg} />
+            <img className="intro-img" src={HeroImg} alt="Hero" />
         </div>
         <div className="content">
             <h1>Little Lemon</h1>
